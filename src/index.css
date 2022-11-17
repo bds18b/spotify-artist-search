@@ -32,9 +32,14 @@ body {
   min-height: 100vh;
 }
 
+input {
+  color: white;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white;
 }
 
 button {
@@ -46,6 +51,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  color: white;
   transition: border-color 0.25s;
 }
 button:hover {

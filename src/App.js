@@ -6,7 +6,7 @@ function App() {
   //spotify variables
   const client_id = "2b4f407653c44852a6474a37c1928dbf"
   const client_secret = "162e01b59b874741b4fa19b1ca3100dc"
-
+  const base_artist_url = "https://open.spotify.com/artist/"
   
   const search_value = useRef();
   const [results, setResults] = useState([])
@@ -80,21 +80,23 @@ function App() {
   }
 
   
+
+  
   return (
     <>
       <div className="search-bar-container">
         <h1>Spotify Artist Search</h1>
         <input onKeyDown={handleEnter} ref={search_value} placeholder="Enter an Artist Name"/>
-        <button type="text"  onClick={handleSearch}>Search</button>
+        <button type="text" onClick={handleSearch}>Search</button>
       </div>
 
       <div className="grid-container">
         {results.map(results => 
-          <div className='grid-item'>
-            <img src={results.image}/>
-            <h1>{results.name}</h1>
-            <h2>Followers: {results.followers}</h2>
-          </div>
+            <a href={base_artist_url + results.artist_id} className='grid-item'>
+              <img src={results.image}/>
+              <h1>{results.name}</h1>
+              <h2>Followers: {results.followers}</h2>
+            </a>
         )}
       </div>
     </>

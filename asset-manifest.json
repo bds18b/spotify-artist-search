@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/test-app/static/css/main.cf5a6e13.css",
-    "main.js": "/test-app/static/js/main.3146989b.js",
-    "static/js/787.a86f3764.chunk.js": "/test-app/static/js/787.a86f3764.chunk.js",
-    "static/media/not-available-circle.png": "/test-app/static/media/not-available-circle.9cf832dfdef0dd7ba8dd.png",
-    "index.html": "/test-app/index.html",
-    "main.cf5a6e13.css.map": "/test-app/static/css/main.cf5a6e13.css.map",
-    "main.3146989b.js.map": "/test-app/static/js/main.3146989b.js.map",
-    "787.a86f3764.chunk.js.map": "/test-app/static/js/787.a86f3764.chunk.js.map"
+    "main.css": "/spotify-artist-search/static/css/main.cf5a6e13.css",
+    "main.js": "/spotify-artist-search/static/js/main.77391cab.js",
+    "static/js/787.a86f3764.chunk.js": "/spotify-artist-search/static/js/787.a86f3764.chunk.js",
+    "static/media/not-available-circle.png": "/spotify-artist-search/static/media/not-available-circle.9cf832dfdef0dd7ba8dd.png",
+    "index.html": "/spotify-artist-search/index.html",
+    "main.cf5a6e13.css.map": "/spotify-artist-search/static/css/main.cf5a6e13.css.map",
+    "main.77391cab.js.map": "/spotify-artist-search/static/js/main.77391cab.js.map",
+    "787.a86f3764.chunk.js.map": "/spotify-artist-search/static/js/787.a86f3764.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf5a6e13.css",
-    "static/js/main.3146989b.js"
+    "static/js/main.77391cab.js"
   ]
 }

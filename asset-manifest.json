@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/spotify-artist-search/static/css/main.da62687c.css",
+    "main.css": "/spotify-artist-search/static/css/main.6c1266fb.css",
     "main.js": "/spotify-artist-search/static/js/main.77391cab.js",
     "static/js/787.a86f3764.chunk.js": "/spotify-artist-search/static/js/787.a86f3764.chunk.js",
     "static/media/not-available-circle.png": "/spotify-artist-search/static/media/not-available-circle.9cf832dfdef0dd7ba8dd.png",
     "index.html": "/spotify-artist-search/index.html",
-    "main.da62687c.css.map": "/spotify-artist-search/static/css/main.da62687c.css.map",
+    "main.6c1266fb.css.map": "/spotify-artist-search/static/css/main.6c1266fb.css.map",
     "main.77391cab.js.map": "/spotify-artist-search/static/js/main.77391cab.js.map",
     "787.a86f3764.chunk.js.map": "/spotify-artist-search/static/js/787.a86f3764.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da62687c.css",
+    "static/css/main.6c1266fb.css",
     "static/js/main.77391cab.js"
   ]
 }

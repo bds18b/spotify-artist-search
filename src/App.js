@@ -92,7 +92,7 @@ function App() {
 
       <div className="grid-container">
         {results.map(results => 
-            <a href={base_artist_url + results.artist_id} className='grid-item'>
+            <a href={base_artist_url + results.artist_id} target="_blank" className='grid-item'>
               <img src={results.image}/>
               <h1>{results.name}</h1>
               <h2>Followers: {results.followers}</h2>

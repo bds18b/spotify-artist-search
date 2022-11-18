@@ -31,7 +31,7 @@ function App() {
       } else {
         image = NA;
       }
-
+      console.log(items[x])
       
     
       let dict = {
@@ -95,7 +95,7 @@ function App() {
             <a href={base_artist_url + results.artist_id} target="_blank" className='grid-item'>
               <img src={results.image}/>
               <h1>{results.name}</h1>
-              <h2>Followers: {results.followers}</h2>
+              <h2>Followers: {(results.followers).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</h2>
             </a>
         )}
       </div>
